@@ -1,0 +1,136 @@
+.equipment {
+  padding: 100px 8%;
+  background: #0d0d0d;
+  color: white;
+}
+
+.equipment h2 {
+  text-align: center;
+  color: #F58220;
+  font-size: 42px;
+}
+
+.equipment-subtitle {
+  text-align: center;
+  color: #ccc;
+  margin: 15px 0 50px;
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  gap: 35px;
+}
+
+.equipment-card {
+  background: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.35s;
+}
+
+.equipment-card:hover {
+  transform: translateY(-8px);
+}
+
+.equipment-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.equipment-content {
+  padding: 25px;
+}
+
+.equipment-content h3 {
+  color: #F58220;
+  margin-bottom: 15px;
+}
+
+.equipment-content p {
+  margin: 8px 0;
+  color: #ddd;
+}
+
+.available {
+  display: inline-block;
+  margin-top: 15px;
+  background: green;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+.equipment-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.quote-btn {
+  flex: 1;
+  background: #F58220;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.call-btn {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #F58220;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}.call-btn{
+    flex:1;
+    height:55px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+    text-decoration:none;
+
+    background:transparent;
+    color:#fff;
+
+    border:2px solid #F58220;
+    border-radius:10px;
+
+    font-size:18px;
+    font-weight:600;
+
+    transition:0.3s ease;
+}
+
+.call-btn:hover{
+    background:#F58220;
+    color:#fff;
+}
+.machine-type{
+    display:inline-block;
+    background:#F58220;
+    color:white;
+    padding:6px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.equipment-card{
+    box-shadow:0 10px 30px rgba(0,0,0,.45);
+    transition:.35s;
+}
+
+.equipment-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 40px rgba(245,130,32,.25);
+}
+
+.quote-btn:hover{
+    background:#ff9b3d;
+}

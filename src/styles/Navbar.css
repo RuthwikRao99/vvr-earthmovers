@@ -1,0 +1,81 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 60px;
+
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(245, 130, 32, 0.15);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h2 {
+  color: #F58220;
+  font-size: 32px;
+  margin: 0;
+}
+
+.logo span {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #F58220;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.call-btn,
+.quote-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.call-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid #F58220;
+}
+
+.quote-btn {
+  background: #F58220;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.call-btn:hover,
+.quote-btn:hover {
+  transform: translateY(-2px);
+}
